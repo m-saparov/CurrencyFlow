@@ -1,0 +1,51 @@
+# Python build va cache fayllari
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# IDE va editor sozlamalari
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS tomonidan yaratilgan fayllar
+.DS_Store
+Thumbs.db
+
+# Log va vaqtinchalik fayllar
+*.log
+*.tmp
+*.bak
+
+# Test natijalari
+.coverage
+.tox/
+.pytest_cache/
+
+# JSON ma’lumotlar (faqat dinamik yaratiladigan)
+data/rates.json
+
+# Pip va dependency fayllari
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Environment o‘zgaruvchilar (agar ishlatilsa)
+.env
+.env.*
+
+# PyInstaller yoki boshqa build natijalari
+*.spec
+
+# Jupyter yoki ipynb checkpointlar
+.ipynb_checkpoints/
